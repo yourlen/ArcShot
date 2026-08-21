@@ -1,0 +1,37 @@
+
+#///////////////////////////
+# Cocos Creator Project
+#///////////////////////////
+
+/library/
+/temp/
+/local/
+/build/
+/publish/
+/profiles/
+/.creator/
+/.local-pvp/
+/.pnpm-store/
+/backups/
+/test-delivery/
+/server/dist/
+/native/engine/android/**/*/assets
+
+#//////////////////////////
+# NPM
+#//////////////////////////
+node_modules/
+
+#//////////////////////////
+# VSCode
+#//////////////////////////
+.vscode/
+
+#//////////////////////////
+# WebStorm
+#//////////////////////////
+.idea/
+
+# Runtime and packaged artifacts
+*.log
+*.zip

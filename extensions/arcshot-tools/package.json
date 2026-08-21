@@ -1,0 +1,23 @@
+{
+  "package_version": 2,
+  "version": "1.0.0",
+  "name": "arcshot-tools",
+  "description": "ArcShot 项目编辑器辅助工具",
+  "main": "./dist/main.js",
+  "contributions": {
+    "menu": [
+      {
+        "path": "扩展/ArcShot",
+        "label": "打开首版场景",
+        "message": "open-first-scene"
+      }
+    ],
+    "messages": {
+      "open-first-scene": {
+        "methods": [
+          "openFirstScene"
+        ]
+      }
+    }
+  }
+}

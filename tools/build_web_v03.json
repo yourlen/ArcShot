@@ -1,0 +1,41 @@
+{
+  "platform": "web-mobile",
+  "debug": false,
+  "name": "ArcShot",
+  "startScene": "df3d91c4-205b-4c5e-a9dc-c2f585715945",
+  "buildPath": "project://build",
+  "outputName": "arcshot-v03-local",
+  "taskName": "arcshot-v03-local",
+  "buildMode": "normal",
+  "mainBundleCompressionType": "merge_dep",
+  "packages": {
+    "adsense-h5g-plugin": {
+      "enableAdsense": false,
+      "enableTestAd": false
+    },
+    "web-mobile": {
+      "useWebGPU": false,
+      "orientation": "auto",
+      "embedWebDebugger": false
+    }
+  },
+  "engineModulesConfigKey": "defaultConfig",
+  "mangleProperties": false,
+  "md5Cache": false,
+  "skipCompressTexture": false,
+  "sourceMaps": false,
+  "nativeCodeBundleMode": "both",
+  "polyfills": {
+    "asyncFunctions": true
+  },
+  "experimentalEraseModules": false,
+  "startSceneAssetBundle": false,
+  "bundleConfigs": [],
+  "inlineEnum": true,
+  "useBuiltinServer": false,
+  "mainBundleIsRemote": false,
+  "useSplashScreen": true,
+  "bundleCommonChunk": false,
+  "packAutoAtlas": true,
+  "wasmCompressionMode": false
+}

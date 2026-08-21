@@ -1,0 +1,37 @@
+{
+  "platform": "web-desktop",
+  "debug": true,
+  "name": "ArcShot PVP Local v0.2",
+  "startScene": "df3d91c4-205b-4c5e-a9dc-c2f585715945",
+  "buildPath": "project://build",
+  "outputName": "arcshot-pvp-local-v02",
+  "taskName": "arcshot-pvp-local-v02",
+  "buildMode": "normal",
+  "mainBundleCompressionType": "merge_dep",
+  "packages": {
+    "web-desktop": {
+      "useWebGPU": false,
+      "orientation": "auto",
+      "embedWebDebugger": false
+    }
+  },
+  "engineModulesConfigKey": "defaultConfig",
+  "mangleProperties": false,
+  "md5Cache": false,
+  "skipCompressTexture": false,
+  "sourceMaps": true,
+  "nativeCodeBundleMode": "both",
+  "polyfills": {
+    "asyncFunctions": true
+  },
+  "experimentalEraseModules": false,
+  "startSceneAssetBundle": false,
+  "bundleConfigs": [],
+  "inlineEnum": true,
+  "useBuiltinServer": false,
+  "mainBundleIsRemote": false,
+  "useSplashScreen": true,
+  "bundleCommonChunk": false,
+  "packAutoAtlas": true,
+  "wasmCompressionMode": false
+}
